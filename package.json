@@ -1,0 +1,34 @@
+{
+  "name": "iamdeveloper",
+  "version": "1.0.0",
+  "description": "Это сервис для коммуникации разработчиков между собой. Аналог dev.to",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmp/iamdeveloper.git"
+  },
+  "keywords": [],
+  "author": "Vadim Pashaev <vmp@live.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmp/iamdeveloper/issues"
+  },
+  "homepage": "https://github.com/vmp/iamdeveloper#readme",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.1",
+    "apollo-boost": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "graphql": "^14.5.8",
+    "next": "^9.0.7",
+    "nprogress": "^0.2.0",
+    "react": "^16.10.1",
+    "react-apollo": "^3.1.1",
+    "react-dom": "^16.10.1"
+  }
+}
